@@ -2,3 +2,5 @@ docker_env
 models/coco/*
 note.txt
 tensorrt-python
+__*__
+!__init__
