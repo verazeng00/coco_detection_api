@@ -1,8 +1,7 @@
-# TRT Model Dectection API
+# COCO Dectection API
 
 ## Demo
 [![Watch the video](attached/title.png)](https://youtu.be/reDtOV7JIe8)
-
 ## Model
 Here is Yolov7_tiny (trt version) to do prediction
 
@@ -67,7 +66,12 @@ ValueError: not enough values to unpack (expected 4, got 1)
 
 ```
 - Reason: this problem is due to onnx version is 3. Add Dockerfile 
-3. Update flask into Django
+
+## ToDo
+1. Add Dockerfile 
+2. Add yolov7_tiny pt, onnx model into prediciton choice 
+3. Add video and webcame port in flask
+4. Update flask into Django
 
 ## Refer
 1. Colab about converting *.pt into onnx and trt: https://github.com/WongKinYiu/yolov7/tree/main/tools
