@@ -3,4 +3,4 @@ models/coco/*
 note.txt
 tensorrt-python
 __*__
-!__init__
+!__init__.py
